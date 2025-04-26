@@ -1,0 +1,17 @@
+$ mkdir git-embarcatech
+$ cd git-embarcatech
+$ git init --initial-branch=main
+$ git config user.name "Marina Leite"
+$ git config user.email "marinamaleite@gmail.com"
+$ touch meus_dados.txt
+$ nano meus_dados.txt
+$ git add .
+$ git commit -m "adicionando arquivo de dados"
+$ git remote add origin git@github.com:marina-medeiros/curso-git-embarcatech.git
+$ git push --set-upstream origin main
+$ touch comandos.txt
+$ nano comandos.txt
+$ git add .
+$ git commit -m "adicionando arquivo de comandos"
+$ git push
+
